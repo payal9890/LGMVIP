@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <title>Registration form</title>
+</head>
+<body>
+    <h2>My Registration Form</h2>
+<div id = "container">
+    
+<div id = "Main_Form">
+    <form method="post" name="sample"  class="inp">
+
+        Name:<input type="text" name="Text" class="box" id="Text"><br>
+        Roll No <input type="text" name="Number" class="box" id="Number"><br>
+        Email: <input class="box " type="text" name="email" class="box" id="email"><br>
+        Mobile Number <input type="Number" name="Phone" class="box" id="Phone"><br>
+        Branch <input type="text" name="stream" class="box" id="stream"><br>
+
+        Gender <input type="radio" name="gender" value="Female" id="gender">Female 
+        <input type="radio" name="gender" value="Male"  checked> Male 
+        <input type="radio" name="gender" value="Other" > Other
+        <br><br>
+
+        
+        <!-- Profile Photo:<input type="file" name="Upload_file" id="Upload file"> -->
+      <br><br>  <input type="button" name="add" value=" Enroll Student"  class="btn" onclick="addStudent();">
+        <input type="reset" name="reset" value="clear" class="btn1">
+    </form>
+</div>
+
+<div id="Main_table">
+
+    <H3>Enrolled Student </H3>
+    <table id = "tbl" border="3" >
+<thead class="table_head">
+    <tr >
+        <th class="row">Name</th>
+        <th class="row">Roll no.</th>
+        <th class="row">Email</th>
+        <th class="row">Mobile Number</th>
+        <th class="row">Branch</th>
+        <th class="row">Gender</th>
+        <!-- <th class="row">Profile Photo</th>    -->
+    </tr>
+</thead>
+<tbody>
+
+
+</tbody>
+    </table>
+</div>
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+#container{
+    display: flex;
+        height: calc(100vh - 9.5em);
+        border: 5px solid gray;   
+}
+
+#Main_Form{
+    font-size: larger;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(22, 233, 198);
+}
+
+#Main_table{
+    height: 100%;
+    width: 50%; 
+    background-color: rgb(85, 175, 11); 
+}
+
+.box{
+    border: 2px solid rgb(241, 108, 19);
+    border-radius: 7px;
+    box-sizing: border-box;
+     height: 33px;
+    width: 20em; 
+    display: flex;
+}
+
+#main_table{
+    margin: auto;
+    height: 50px; 
+}
+.table_head{
+    /* padding: 5px; */
+    font-size: 20px;
+    height: 50px;
+}
+.row{
+    padding: 5px;
+}
+
+#tbl{
+margin: 10px;
+}
+.btn{
+    font-size: 20px;
+    border-radius: 5px;
+}
+.btn1{
+    font-size: 15px;
+    border-radius: 5px;
+}
